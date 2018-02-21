@@ -39,11 +39,21 @@ git rm file.txt\
 
 \b renaming files:\
 
-\b0 - rename\
-- git add newName.txt\
-- git rm oldName.txt\
+\b0 git mv old.txt someFolder/new.txt\
+\
 
-\b \
-
+\b unstage files:
 \b0 \
+git reset HEAD file.txt\
+\
+
+\b getting old versions:\
+
+\b0 git checkout commitID - - fileToRevert.txt\
+\
+
+\b use GitHub:\
+
+\b0 git remote add RepositoryNicname githubURL \
+\
 }
